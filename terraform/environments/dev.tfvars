@@ -1,0 +1,11 @@
+aws_region        = "us-east-1"
+vpc_cidr          = "10.0.0.0/16"
+azs               = ["us-east-1a", "us-east-1b", "us-east-1c"]
+ec2_instance_type = "t3.micro"
+key_name          = "opswat-devsecops-key"
+db_instance_class = "db.t3.micro"
+db_name           = "opswatdb"
+db_username       = "devuser"
+db_password       = "devpass"
+rabbitmq_user     = "rmqdev"
+rabbitmq_pass     = "rmqdevpass"

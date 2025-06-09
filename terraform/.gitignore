@@ -1,0 +1,73 @@
+# General
+*.log
+*.bak
+*.tmp
+*.swp
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# OS/System files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node.js (if using CDK or Pulumi in JS)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+*.tfplan
+*.zip # For AWS Lambda zips etc.
+
+# Ansible
+*.retry
+*.vault
+*.key
+*.pem
+inventory.ini
+secrets.yml
+vault_password_file
+ansible.cfg (if local config shouldn't be tracked)
+
+# Pulumi
+Pulumi.*
+.pulumi/
+
+# CloudFormation
+# (only if you generate templates from tools like AWS CDK)
+cdk.out/
+*.template.json
+
+# Docker
+*.tar
+*.pid
+.docker/
+docker-compose.override.yml
+
+# Secrets and sensitive configs
+*.key
+*.crt
+*.pem
+*.jks
+secrets.*
+credentials.*
+config.local.*
